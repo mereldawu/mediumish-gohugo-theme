@@ -8,12 +8,13 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: #000;
     transition: all 0.2s;
+    /* text-decoration: underline; */
 }
 
 a:hover {
-    color: #038252;
+    color: #3e5e3b;
     text-decoration: none;
 }
 
@@ -234,12 +235,12 @@ span.post-read-more {
 }
 
 span.post-read-more a {
-    color: rgba(0, 0, 0, .44);
+    color: rgba(100, 0, 0, .44);
 }
 
 span.post-name a,
 span.post-read-more a:hover {
-    color: rgba(0, 0, 0, .8);
+    color: rgba(0, 100, 0, .8);
 }
 
 .dot:after {
@@ -270,7 +271,7 @@ span.post-read-more a:hover {
 .mediumnavigation .form-inline .btn:hover,
 .mediumnavigation .form-inline .btn:active {
     background: transparent;
-    color: green;
+    color: #ee577e;
 }
 
 .mediumnavigation .navbar-brand {
@@ -300,7 +301,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: Rubik;
 }
 
 .mainheading h1.posttitle {
@@ -310,7 +311,7 @@ span.post-read-more a:hover {
 
 .footer {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 12px;
     font-size: 0.8rem;
     color: rgba(0, 0, 0, .44);
@@ -332,10 +333,12 @@ span.post-read-more a:hover {
 }
 
 blockquote {
-    border-left: 4px solid #00ab6b;
+    border-left: 4px solid #4F4E4D;
+    margin-top: 3px;
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
+    font-size: 1.2rem;
 }
 
 .article-post p,
@@ -496,14 +499,14 @@ ul.tags li {
 }
 
 ul.tags li a {
-    background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
+    background: #3e5e3b;
+    color: #fff;
     border-radius: 3px;
     padding: 5px 10px;
 }
 
 ul.tags li a:hover {
-    background: rgba(0, 0, 0, .07);
+    background: #000;
     text-decoration: none;
 }
 
@@ -514,14 +517,14 @@ ul.tags li a:hover {
 .sep {
     height: 1px;
     width: 20px;
-    background: #999;
+    background: #e0d2cd;
     margin: 0px auto;
     margin-bottom: 1.2rem;
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #000;
+    color: #3e5e3b;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -530,8 +533,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #3e5e3b;
+    border-color: #91b691;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -680,7 +683,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Open Sans", "Kalra", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,
@@ -724,8 +727,8 @@ img {
     padding: 15px 0 0 0;
     text-align: center;
     margin-bottom: 0rem;
-    color: #999;
-    border-top: 1px solid #ddd;
+    color: #e0d2cd;
+    border-top: 1px solid #e0d2cd;
 }
 
 .pointerup {
@@ -735,7 +738,7 @@ img {
 }
 
 .pointerup i.fa {
-    color: #eaeaea;
+    color: #e0d2cd;
 }
 
 .bottompagination span.navigation i {
@@ -764,17 +767,17 @@ iframe {
 
 @media (min-width:768px) {
     .jumbotron.fortags {
-        margin-bottom: -50px;
-        margin-top: 3rem;
-        padding: 0;
-        height: 350px;
-        border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
-        background-size: cover;
+        /* margin-bottom: -50px; */
+        /* margin-top: 3rem; */
+        /* padding: 0; */
+        /* height: 30px; */
+        /* border-radius: 0; */
+        /* background-image: url(../images/jumbotron.jpg); */
+        /* background-size: cover; */
     }
 
     .jumbotron.fortags .col-md-4 {
-        background: rgba(0, 0, 0, 0.75);
+        background: #5a554e;
         color: #fff;
     }
 
@@ -787,13 +790,13 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
-    background-size: cover;
+    /* background-image: url(../images/jumbotron.jpg); */
+    /* background-size: cover; */
 }
 
 .jumbotron.fortags a {
     padding: 5px 10px 7px;
-    background: #222;
+    background: #5a554e !important;
     border-radius: 30px;
     color: #fff;
     font-weight: 500;
